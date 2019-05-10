@@ -56,7 +56,7 @@ class App extends React.Component {
         this.autoLeftTimer = setInterval(this.leftArrowHandler, 1000)
     };
     stopAutoSlide = () => {
-        clearInterval(this.autoLeftTime)
+        clearInterval(this.autoLeftTimer)
         clearInterval(this.autoRightTimer)
     };
     setInputRef = (input) => {

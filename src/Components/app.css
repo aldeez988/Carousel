@@ -1,0 +1,90 @@
+.carousel{
+    position: relative;
+    width : 80%; 
+    height: 450px;
+    margin-top: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+  border : 10px solid black; 
+     
+  }
+  
+  
+  .carousel__arrows-container{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index : 1;
+    width: 100%; 
+    top : 50%;
+    transition : background 0.5s;
+    
+  }
+  
+  .carousel__arrows-container a{
+  font-size : 100px;
+  background: #00000036;
+  margin-left : 2%;
+  margin-right : 2%;
+   color : #fff;
+  
+  }
+  
+  .arrows-container__right-arrow:hover,.arrows-container__left-arrow:hover{
+    background: blueviolet;
+      cursor:pointer;
+  }
+  
+  .carousel-container__image-container{
+    position: absolute;
+    width : 100%;
+    border: 2px  black solid;
+  
+  }
+  
+  .carousel__image-container img{
+      width : 100%;
+      max-height: 450px;
+     object-fit: cover;
+  }
+  
+  
+  
+  
+  .bullet-container{
+    text-align : center;
+  }
+  
+  
+  
+  .bullet {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0 4px 0 4px;
+      border-radius: 50%;
+      background: rgba(0,0,0,0);
+      border: 1px solid #6e7c7f;
+  }
+  .bullet-selected {
+  box-shadow: inset 0 0 0 2px #12171b; 
+    background-color: #0072bc;
+  }
+.btn-container{
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+  .btn{
+    width:230px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: blueviolet;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .btn:hover{
+    background: rgb(70, 43, 226);
+    cursor:pointer;
+  }
